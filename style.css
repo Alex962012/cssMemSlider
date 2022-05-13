@@ -147,6 +147,13 @@ visibility: hidden;
 	transform: perspective(0.5em);
 
 }
+@media screen and (max-width : 1920px){
+    
+    .sub_text{
+        width: 40%;
+    }
+   
+}
 @media screen and (max-width : 1027px){
     .mem_box{
         height: 100%;
@@ -156,6 +163,16 @@ visibility: hidden;
         height: 2vh;
     }
    
+   
+}
+@media screen and (max-width : 793px){
+.sub_text{
+    width: 36%;
+    
+}
+.bar{
+    margin: 0.4em;
+}
 }
 @media screen and (max-width : 692px){
     .bar{ width: 1vh ;
@@ -164,7 +181,7 @@ visibility: hidden;
 }
 
 @media screen and (max-width : 579px){
-    .bar{ margin:  0.2vh;
+    .bar{ border: 1em;
     }
 }
 
@@ -189,6 +206,7 @@ visibility: hidden;
         height: 10em;
         width: 15em;
     }
+    
     .button_container{
         justify-content: center;
         margin-bottom: 2em;
@@ -208,8 +226,8 @@ visibility: hidden;
     justify-content:left;
 }
 .sub_text{
-    font-size: 14px;
-    width: 80%;
+    font-size: 12px;
+    width: 100%;
     
     
 } 
