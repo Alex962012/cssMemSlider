@@ -239,8 +239,8 @@ visibility: hidden;
 }
 @media screen and (max-width : 426px){
     .slide{
-        width: 26vh;
-        height: 22vh;
+        width: 25vh;
+        height: 16vh;
     }
     .container{
         width: 90%;
