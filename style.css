@@ -90,9 +90,10 @@ visibility: hidden;
 .container{
     display: flex;
     flex-direction: row-reverse;
-    width: 40%;
+    width: 50%;
     justify-content: space-between;
     padding-top: 20px;
+    align-content: center;
   
 }
 .button_container{
@@ -103,6 +104,7 @@ visibility: hidden;
 .text_container{
     width: 65vh;
     display: flex;
+    align-items: center;
     
  
 }
@@ -149,12 +151,108 @@ visibility: hidden;
 	transform: perspective(0.5em);
 
 }
-
-@media screen and (max-width : 1000px){
+@media screen and (max-width : 1610px){
     .sub_text{
     font-size:1em ;
     }
 }
+@media screen and (max-width : 1440px){
+    .sub_text{
+    font-size:0.8em ;
+    }
+}
+@media screen and (max-width : 1140px){
+    .sub_text{
+    font-size:0.7em ;
+    }
+    #slide_box{
+        height: 50%;
+    }
+    .bar{
+        width: 2vh;
+        height: 2vh;
+    }
+}
+@media screen and (max-width : 1010px){
+    .sub_text{
+        font-size:0.6em ;
+        }
+        .container{
+            width: 70%;
+        }
+}
+
+@media screen and (max-width : 1010px){
+    .sub_text{
+        font-size:0.6em ;
+        width: 30%;
+        }
+        .container{
+            width: 80%;
+        }
+        .button_container{
+            width: 30vh;
+        }
+}
+@media screen and (max-width : 748px){
+  .slide{
+      width: 45vh;
+      height: 30vh;
+  }
+  #slide_box{
+      height: 30%;
+  }
+}
+@media screen and (max-width : 536px){
+    .slide{
+        width: 40vh;
+        height: 25vh;
+    }
+    .container{
+        width: 90%;
+    }
+    .bar{
+        width: 1em;
+        height: 1em;
+    }
+    .sub_text{
+        width: 40%;
+    }
+}
+@media screen and (max-width : 462px){
+    .slide{
+        width: 35vh;
+        height: 20vh;
+    }
+    .container{
+        width: 90%;
+    }
+    .bar{
+        width: 1em;
+        height: 1em;
+    }
+    .text_container{
+        width: 70vh;
+    }
+}
+@media screen and (max-width : 426px){
+    .slide{
+        width: 26vh;
+        height: 22vh;
+    }
+    .container{
+        width: 90%;
+    }
+    .bar{
+        width: 1em;
+        height: 1em;
+        margin: 0.1vh;
+    }
+    .text_container{
+        width: 70vh;
+    }
+}
+
 @media screen and (max-width : 320px){
     .mem_container{
         height: 100vh
@@ -167,22 +265,24 @@ visibility: hidden;
     }
     #slide_box{
       
-       height: 30%;
+       height: 20%;
     }
     .slide{
         height: 10em;
         width: 15em;
     }
+    .button_container{
+        justify-content: center;
+    }
 .container{
+    margin-top: 7vh;
     display: flex;
     flex-direction: column;
     align-items: center;
  justify-content: center;
     width: 100%;
 }
-.button_container{
-    width: 28vh;
-}
+
 .text_container{
     width: 100%;
     display: flex;
