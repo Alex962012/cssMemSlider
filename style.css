@@ -23,14 +23,13 @@ h1{
 }
 
 .mem_box{
-    margin-top: 1em;
-    height: inherit;
+        height: inherit;
     width: inherit; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80%;
+    height: 100%;
 }
 
 input[name='slider']{
@@ -47,9 +46,9 @@ visibility: hidden;
 
 .slide{
     width: 80%;
-    height: 60%;
+    height: 70%;
     position: absolute;
-    background-size:contain;
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 	transform: scale(0.5);
