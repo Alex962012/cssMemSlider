@@ -212,7 +212,7 @@ visibility: hidden;
         height: 100vh
     }
     .mem_box{
-        padding-top: 1em;
+        
         justify-content:start;
     }
    
@@ -230,7 +230,7 @@ visibility: hidden;
         margin-bottom: 2em;
     }
 .container{
-    margin-top: 7vh;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
