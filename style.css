@@ -151,8 +151,28 @@ visibility: hidden;
     .sub_text{
         width: 40%;
     }
+    .slide{
+        width: 80%;
+        height: 70%;
+        position: absolute;
+        background-size:contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        transform: scale(0.5);
+        border-radius: 1em;
+    
+        transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+        
+    }
    
 }
+
+@media screen and (max-width : 1820px){
+    
+   
+   
+}
+
 @media screen and (max-width : 1027px){
     .mem_box{
         height: 100%;
@@ -192,11 +212,10 @@ visibility: hidden;
         height: 100vh
     }
     .mem_box{
+        padding-top: 1em;
         justify-content:start;
     }
-    h1{
-        padding-top: 1em;
-    }
+   
     #slide_box{
       
        height: 20%;
