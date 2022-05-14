@@ -82,7 +82,7 @@ visibility: hidden;
     cursor: pointer;
     transition: ease-in-out .5s;
     border-radius:  50%;
-    border: 10px solid rgb(53, 52, 52);
+    border: 1em solid rgb(53, 52, 52);
 }
 
 .bar:hover{
@@ -208,19 +208,17 @@ visibility: hidden;
 
 
 @media screen and (max-width : 320px){
+
     .mem_container{
         height: 100vh
+        
     }
     .mem_box{
-        
-        justify-content:start;
+    
+        justify-content:center;
     }
    
-    #slide_box{
-      
-       height: 20%;
-    }
-    .slide{
+        .slide{
         height: 10em;
         width: 15em;
     }
@@ -244,9 +242,13 @@ visibility: hidden;
     justify-content:left;
 }
 .sub_text{
-    font-size: 12px;
+    font-size: 3vh;
     width: 100%;
     
     
 } 
+.bar{
+    width: 2vw;
+    height: 2vw;
+}
  }
