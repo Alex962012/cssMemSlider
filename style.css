@@ -112,7 +112,7 @@ visibility: hidden;
     color: wheat;
     position: absolute;
     background-color: rgb(53, 52, 52);
-    width: 30%;
+    width: 40%;
     transform: translateZ(2px);
 	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 }
